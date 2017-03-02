@@ -1,6 +1,5 @@
 FROM ubuntu:14.04
 
-RUN mkdir -p ./data
 ADD ./data /var/lib/clamav
 
 RUN apt-get update && \
